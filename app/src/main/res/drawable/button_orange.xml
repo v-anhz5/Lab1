@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFA500" /> <!-- Màu cam -->
+    <corners android:radius="8dp" /> <!-- Bo tròn góc -->
+    <padding android:left="12dp" android:right="12dp" android:top="8dp" android:bottom="8dp" />
+</shape>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#E0E0E0" /> <!-- Nền xám nhạt khi nhấn -->
+            <stroke android:width="2dp" android:color="#000000" /> <!-- Viền đen -->
+            <corners android:radius="8dp" /> <!-- Bo tròn góc -->
+        </shape>
+    </item>
+
+    <!-- Trạng thái mặc định của nút -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Nền trắng mặc định -->
+            <stroke android:width="2dp" android:color="#000000" /> <!-- Viền đen -->
+            <corners android:radius="8dp" /> <!-- Bo tròn góc -->
+        </shape>
+    </item>
+</selector>

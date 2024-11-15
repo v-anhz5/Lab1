@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_home.xml -->
+<!-- res/layout/activity_home.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Healthy Mart"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOpenProductDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Product Detail" />
+
+    <!-- Các phần tử khác như RecyclerView cho danh sách sản phẩm nếu cần -->
+</LinearLayout>
